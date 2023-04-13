@@ -8,8 +8,13 @@
 header{
     width: 100%;
     height: 70px;
-    
+}
 
+main{
+    width: 100%;
+    height: 1000px;
+    margin-top: 10rem;
+    
 }
 
 .flex{
@@ -17,6 +22,15 @@ header{
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+}
+
+.column{
+    max-width: 1000px;
+    margin: 0 auto;
+    border: black 2px solid;
+    height: 1000px;
+    background-color: blueviolet;
+
 }
 
 .nav{
@@ -57,6 +71,10 @@ h1{
     padding-bottom: 5rem;
 }
 
+h2{
+    font-size: 3rem;
+} 
+
 .box{
     width: 100%;
     height: 200px;
@@ -87,4 +105,8 @@ p{
 
 .proposta{
     width: 700px;
+}
+
+.radio{
+    display: inline;
 }
