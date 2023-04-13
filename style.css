@@ -8,7 +8,7 @@
 header{
     width: 100%;
     height: 70px;
-    background-color: aqua;
+    
 
 }
 
@@ -26,14 +26,65 @@ header{
 
 button{
     border: none;
-    background-color: blue;
+    background-color: rgb(44, 44, 247);
     color: white;
     margin: 0 1rem;
     padding: 0.5rem 0.5rem;
-    
+    margin-bottom: 1rem;
 }
 
 #logo{
     margin-left: 1rem;
     vertical-align: bottom;
+}
+
+.container-blue{
+    height: 670px;
+    margin: 0 auto;
+    max-width: 1300px;
+
+}
+
+.jumbo{
+    max-height: 670px;
+    background-color: rgb(98, 166, 255);
+    
+}
+
+h1{
+    font-size: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+.box{
+    width: 100%;
+    height: 200px;
+    margin-top: 3rem;
+}
+
+.text{
+    width: 30%;
+    padding: 1rem 1rem;
+    font-size: 1.2rem;
+}
+
+p{
+    margin-bottom: 2rem;
+}
+
+.simbol{
+    font-size: 3rem;
+}
+
+.contenuto{
+    width: 70%; 
+    height: 509px;
+    background-image: url("/img/jumbo.png");
+    background-size: cover;
+    margin-top: 12rem;
+}
+
+.proposta{
+    width: 700px;
 }
