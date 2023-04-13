@@ -32,9 +32,9 @@ footer{
 
 .column{
     margin-top: 10rem;
-    border: black 2px solid;
-    height: 1000px;
-    background-color: blueviolet;
+    
+    
+    
 
 }
 
@@ -88,6 +88,11 @@ h2{
     font-size: 3rem;
 } 
 
+h3{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
 .box{
     width: 100%;
     height: 200px;
@@ -120,16 +125,29 @@ p{
     width: 700px;
 }
 
-.radio{
+.sezioni{
+    padding-top: 3rem;
+}
 
+.radio{
+    padding-top: 3rem;
 }
 
 .elenco{
-    background-color: green;
-    height: 500px;
+    height: 927px;
     width: calc(100% / 3);
     border: solid 2px black;
     margin-right: 2rem;
+}
+
+.spazio{
+    padding-left: 1.3rem;
+}
+
+.user{
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 0.5rem 0;
 }
 
 .sub{
@@ -172,6 +190,10 @@ p{
     background-color: green;
     border: 2px solid black;
     width: calc(100% / 3);
+}
+
+.grey{
+    color: grey;
 }
 
 .sponsor{
