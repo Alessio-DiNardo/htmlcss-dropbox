@@ -45,7 +45,7 @@ footer{
 
 button{
     border: none;
-    background-color: rgb(44, 44, 247);
+    background-color: rgb(65, 138, 248);
     color: white;
     margin: 0 1rem;
     padding: 0.5rem 0.5rem;
@@ -150,9 +150,14 @@ p{
     padding: 0.5rem 0;
 }
 
+.team{
+    border-bottom: 2px soldi black;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
 .sub{
-    background-color: red;
-    height: 150px;
+    
     width: 100%;
     border: 2px black solid;
     margin-top: 2rem;
