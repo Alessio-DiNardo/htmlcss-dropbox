@@ -219,7 +219,7 @@ div.card div.verde img{
 
 .sponsor{
     width: 100%;
-    background-color: yellow;
+    
 }
 
 .pubblicità{
@@ -344,4 +344,69 @@ div.pubblicità div img{
     left: 50%;
     transform: translate(-50%, -50%);
     filter: invert(1);
+}
+
+.bicy{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    padding: 5rem 2rem;
+    padding-bottom: 7rem;
+    left: 0;
+    top: 0;
+    background-color: red;
+}
+
+.hearts{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    padding: 5rem 2rem;
+    padding-bottom: 7rem;
+    right: 0;
+    top: 0;
+    background-color: rgb(114, 168, 248);
+}
+
+.lonely{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    padding: 5rem 2rem;
+    padding-bottom: 7rem;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(1, 1, 119);
+}
+
+.clear{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    padding: 5rem 2rem;
+    padding-bottom: 7rem;
+    right: 0;
+    bottom: 0;
+    background-color: yellow;
+}
+
+.padding{
+    padding: 3rem;
+}
+
+.piccolo{
+    width: 20px;
+}
+
+.membri{
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.morten{
+    padding-top: 2rem;
+    padding-left: 4rem;
+    font-size: 1.2rem;
 }
