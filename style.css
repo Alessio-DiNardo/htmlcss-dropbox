@@ -20,7 +20,7 @@ main{
 footer{
     width: 100%;
     background-color: black;
-    height: 500px;
+
 }
 
 .flex{
@@ -42,10 +42,6 @@ footer{
 
 .column{
     margin-top: 10rem;
-    
-    
-    
-
 }
 
 .nav{
@@ -174,8 +170,21 @@ p{
     margin-top: 2rem;
 }
 
+.titolo{
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.enter{
+    width: 75%;
+}
+
+.contatta{
+    width: 25%;
+}
+
 .numero{
-    padding: 2rem 0;
+    padding: 10rem 0;
 }
 
 .discord{
@@ -268,6 +277,7 @@ div.card div.verde img{
     max-width: 1300px;
     margin: 0 auto;
     color: white;
+    padding-bottom: 10rem;
 }
 
 div.pubblicità div img{
@@ -440,3 +450,7 @@ ul{
     line-height: 3rem;
     
 }
+
+
+
+
