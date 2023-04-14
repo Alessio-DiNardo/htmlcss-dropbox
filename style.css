@@ -192,20 +192,19 @@ p{
 }
 
 .row{
-    height: 400px;
-    background-color: orange;
     width: 100%;
+    padding-top: 3rem;
 
 }
 
 .card{
-    
+
     width: 33%;
-    border: 2px solid black;
+    padding-bottom: 2rem;
     margin-right: 2rem;
 }
 
-.verde{
+div.card div.verde img{
     width: 100%;
 }
 
@@ -253,6 +252,3 @@ p{
     color: white;
 }
 
-.card{
-    width: 100%;
-}
