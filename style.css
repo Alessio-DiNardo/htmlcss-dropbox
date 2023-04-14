@@ -224,8 +224,7 @@ div.card div.verde img{
 
 .pubblicità{
     width: calc(100% / 3);
-    height: 400px;
-    
+    height: calc(100vw / 3);
     border: solid black 2px;
 }
 
@@ -258,7 +257,7 @@ div.card div.verde img{
 }
 
 div.pubblicità div img{
-    width: 100%;
+    width: 50%;
 }
 
 .pubblicità{
@@ -272,10 +271,17 @@ div.pubblicità div img{
     padding: 5rem 2rem;
     padding-bottom: 7rem;
     background-color: rgb(156, 250, 156);
+    
+}
+
+.one{
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 }
+
 
 .arizona{
     position: absolute;
@@ -286,21 +292,39 @@ div.pubblicità div img{
     right: 0;
     top: 0;
     background-color: rgb(240, 27, 98);
-    color: white;
+    
 
 }
+
+.two{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
 
 .florida{
     position: absolute;
     width: 50%;
     height: 50%;
-    padding: 5rem 2rem;
+    padding: 8rem 2rem;
     padding-bottom: 7rem;
     bottom: 0;
     left: 0;
     background-color: aqua;
-    color: white;
+    
 }
+
+.three{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
 
 .tops{
     position: absolute;
@@ -311,5 +335,13 @@ div.pubblicità div img{
     right: 0;
     bottom: 0;
     background-color: red;
-    color: white;
+    
+}
+
+.four{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
 }
