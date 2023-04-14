@@ -199,8 +199,8 @@ p{
 }
 
 .card{
+    
     width: 33%;
-    height: 200px;
     border: 2px solid black;
     margin-right: 2rem;
 }
