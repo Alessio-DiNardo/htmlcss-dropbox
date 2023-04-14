@@ -89,6 +89,7 @@ button{
     
 }
 
+
 h1{
     font-size: 4rem;
     padding-top: 4rem;
@@ -173,7 +174,9 @@ p{
     margin-top: 2rem;
 }
 
-
+.numero{
+    padding: 2rem 0;
+}
 
 .discord{
     width: 100%;
@@ -181,6 +184,11 @@ p{
     height: 747px;
     
 }
+
+.interlinea{
+    color: blue;
+}
+
 
 .immagine{
     height: 440px;
@@ -219,7 +227,13 @@ div.card div.verde img{
 
 .sponsor{
     width: 100%;
-    
+}
+
+.azzurro{
+    background-color: rgb(98, 166, 255);
+    height: 300px;
+    padding-top: 2rem;
+    padding-bottom: 19rem;
 }
 
 .pubblicità{
@@ -409,4 +423,20 @@ div.pubblicità div img{
     padding-top: 2rem;
     padding-left: 4rem;
     font-size: 1.2rem;
+}
+
+.domande{
+    padding-top: 5rem;
+}
+
+
+h4{
+    font-size: 1.5rem;
+}
+
+ul{
+    list-style: none;
+    padding-top: 4rem;
+    line-height: 3rem;
+    
 }
