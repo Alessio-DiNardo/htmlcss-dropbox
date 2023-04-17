@@ -231,7 +231,6 @@ p{
     width: 65%;
     background-image: url("./img/partner.png");
     background-size: cover;
-
 }
 
 .testo{
@@ -243,7 +242,6 @@ p{
 .row{
     width: 100%;
     padding-top: 3rem;
-
 }
 
 .bordo{
@@ -255,7 +253,6 @@ p{
 
 
 .card{
-
     width: 33%;
     padding-bottom: 2rem;
     margin-right: 2rem;
@@ -280,24 +277,18 @@ div.card div.verde img{
 section.sponsor{
     width: calc(100vw / 3);
     height: calc(100vw / 3);
-    border: 1px black solid;
     overflow-y: auto;
 }
 
 div.square{
     width: 50%;
     height: 50%;
-    border: 1px solid black;
-    
+
 }
 
 div.square img{
     width: 50%;
     filter: invert(1);
-}
-
-.color-grigio{
-    background-color: rgb(245, 245, 245)
 }
 
 .business{
