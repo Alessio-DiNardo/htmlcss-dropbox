@@ -45,6 +45,10 @@ footer{
     justify-content: space-between;
 }
 
+.margin-auto{
+    margin: 0 auto;
+}
+
 .column{
     margin-top: 10rem;
 }
@@ -147,14 +151,21 @@ p{
 }
 
 .elenco{
-    height: 927px;
-    width: calc(100% / 3);
+    width: calc(90% / 3);
     border: solid 1px black;
-    margin-right: 2rem;
+    
 }
 
+.elenco-uno{
+    padding-bottom: 13.2rem;
+}
+
+.elenco-tre{
+    padding-bottom: 8.8rem;
+}
 .spazio{
     padding-left: 1.3rem;
+    padding-right: 2rem;
 }
 
 .fatturazione{
@@ -180,7 +191,7 @@ p{
 }
 
 .supp{
-    padding-top: 1rem;
+    padding-top: 1.5rem;
 }
 
 .titolo{
@@ -209,6 +220,7 @@ p{
 
 .interlinea{
     color: blue;
+    padding-bottom: 4rem;
 }
 
 
@@ -255,10 +267,6 @@ div.card div.verde img{
     color: grey;
 }
 
-.sponsor{
-    width: 100%;
-}
-
 .azzurro{
     background-color: rgb(140, 190, 255);
     height: 300px;
@@ -266,10 +274,27 @@ div.card div.verde img{
     padding-bottom: 19rem;
 }
 
-.pubblicità{
-    width: calc(100% / 3);
+
+section.sponsor{
+    width: calc(100vw / 3);
     height: calc(100vw / 3);
-    border: solid black 2px;
+    border: 1px black solid;
+}
+
+div.square{
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+    
+}
+
+div.square img{
+    width: 50%;
+    filter: invert(1);
+}
+
+.color-grigio{
+    background-color: rgb(245, 245, 245)
 }
 
 .business{
@@ -301,147 +326,52 @@ div.card div.verde img{
     padding-bottom: 10rem;
 }
 
-div.pubblicità div img{
-    width: 50%;
-}
 
-.pubblicità{
-    position: relative;
-}
 
-.designit{
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    padding: 5rem 2rem;
-    padding-bottom: 7rem;
-    background-color: rgb(156, 250, 156);
+.green{
+    background-color: rgb(162, 221, 155);
     
 }
 
-.one{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    filter: invert(1);
+.magent{
+    background-color: rgb(97, 8, 43);
 }
 
-
-.arizona{
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    padding: 5rem 2rem;
-    padding-bottom: 7rem;
-    right: 0;
-    top: 0;
-    background-color: rgb(240, 27, 98);
-    
-
+.cyan{
+    background-color: rgb(0, 147, 206);
 }
 
-.two{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    filter: invert(1);
+.red{
+    background-color: rgb(255, 28, 28);
 }
 
-
-.florida{
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    padding: 8rem 2rem;
-    padding-bottom: 7rem;
-    bottom: 0;
-    left: 0;
-    background-color: aqua;
-    
-    
+.azzurr{
+    background-color: rgb(180, 208, 231)
 }
 
-.three{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    filter: invert(1);
+.blue{
+    background-color: rgb(13,36,129);
 }
 
-
-.tops{
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    padding: 5rem 2rem;
-    padding-bottom: 7rem;
-    right: 0;
-    bottom: 0;
-    background-color: red;
-    
+.yellow{
+    background-color: rgb(255, 216, 48);
 }
 
-.four{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    filter: invert(1);
+.pad{
+    background-color: rgb(245, 245, 245);
 }
 
-.bicy{
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    padding: 5rem 2rem;
-    padding-bottom: 7rem;
-    left: 0;
-    top: 0;
-    background-color: red;
-}
-
-.hearts{
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    padding: 5rem 2rem;
-    padding-bottom: 7rem;
-    right: 0;
-    top: 0;
-    background-color: rgb(114, 168, 248);
-}
-
-.lonely{
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    padding: 5rem 2rem;
-    padding-bottom: 7rem;
-    bottom: 0;
-    left: 0;
-    background-color: rgb(1, 1, 119);
-}
-
-.clear{
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    padding: 5rem 2rem;
-    padding-bottom: 7rem;
-    right: 0;
-    bottom: 0;
-    background-color: yellow;
+.rosso{
+    color: red;
 }
 
 .padding{
-    padding: 3rem;
+    padding: 4rem;
+    width: 20rem;
 }
 
-.piccolo{
-    width: 20px;
+.unico{
+    margin-left: 4rem;
 }
 
 .membri{
@@ -461,6 +391,9 @@ div.pubblicità div img{
     padding-top: 5rem;
 }
 
+.paper{
+    height: 100vw;
+}
 
 h4{
     font-size: 1.5rem;
